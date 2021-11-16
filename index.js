@@ -4,7 +4,7 @@ var json_html = require('resume-to-html');
 var pdf = require('html-pdf');
 var express = require('express');
 var uuidv4 = require('uuid/v4');
-
+const port = process.env.PORT || 3000;
 var app = express();
 app.use(express.urlencoded({ extended: false }))
 
