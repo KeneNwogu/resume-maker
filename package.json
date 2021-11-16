@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Create resume from website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "resume",
+    "node"
+  ],
+  "author": "KeneNwogu",
+  "license": "ISC",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "html-pdf": "^3.0.1",
+    "phantomjs-prebuilt": "^2.1.16",
+    "resume-to-html": "0.0.21"
+  }
+}
