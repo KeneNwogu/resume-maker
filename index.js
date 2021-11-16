@@ -49,7 +49,7 @@ app.get('/file/', function(req, res) {
   
 })
 
-app.listen(8080, 'localhost', () => {
+app.listen(port, 'localhost', () => {
     console.log('server started');
 });
 
